@@ -1,30 +1,24 @@
 import React from "react"
-const AppInput = ({
-    onChange,
-    name,
-    type,
-    placeholder,
-    value,
-    error,
-    className,
-    ...props
-}) => {
+
+const AppInput = (props) => {
+    const {onChange, name, type, placeholder, disabled, value, error, className} = props;
     return (
-        <div>
+        <div className={className}>
             <input
                 onChange={onChange}
                 name={name}
-                type={type}
+                type={type || 'text'}
                 placeholder={placeholder}
                 value={value}
+                disabled={disabled}
                 error={error}
-                className={className}
+                className={'form-control'}
                 style={error && { border: 'solid 1px red' }}
             />
-            <span > {error && <p> {error} </p>}  </span>
+            <span>{error}</span>
 
         </div>
     )
-
 }
+
 export default AppInput
