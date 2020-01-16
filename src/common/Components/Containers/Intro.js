@@ -7,7 +7,7 @@ import Links from "../Reusables/buttons/Links";
 class Intro extends Component {
   render() {
     return (
-      <div className="intro-section" style={{backgroundImage: `url('images/hero_1.jpg')`}} id="home-section">
+      <div className="intro-section" style={{ backgroundSize: 'cover', backgroundImage: `url('images/intro_background.jpg')`}} id="home-section">
         <div className="slide-1" data-stellar-background-ratio="0.5">
           <div className="container">
             <div className="row align-items-center">
