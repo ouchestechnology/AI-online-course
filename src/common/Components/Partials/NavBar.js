@@ -9,7 +9,7 @@ class NavBar extends Component{
       
                 <div className="container-fluid">
                 <div className="d-flex align-items-center">
-                    <div className="site-logo mr-auto w-25"><a href="index.html">OneSchool</a></div>
+                    <div className="site-logo mr-auto w-25"><a href="index.html">AinR Academy</a></div>
         
                     <div className="mx-auto text-center">
                     <nav className="site-navigation position-relative text-right" role="navigation">
