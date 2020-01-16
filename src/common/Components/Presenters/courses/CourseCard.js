@@ -18,7 +18,7 @@ const CourseCard = (props) => {
             <div className="course-inner-text py-4 px-4">
             <span className="course-price">{amount}</span>
             <div className="meta">
-                <span className="icon-clock-o"></span>4 Lessons / 12 week
+                <span className="icon-clock-o"></span>4 Hours / 3 weeks
             </div>
             <h3>
                 <a href="#">{name}</a>
