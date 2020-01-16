@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { SLIDE1 } from "../../style/images";
+import AppInput from "../Reusables/inputs/AppInput";
+import RoundedButton from "../Reusables/buttons/RoundedButton";
+import Links from "../Reusables/buttons/Links";
 
 class Intro extends Component {
   render() {
@@ -12,20 +15,17 @@ class Intro extends Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mb-4">
                     <h1 data-aos="fade-up" data-aos-delay="100">
-                      Learn From The Expert
+                      Learn and Gain Real life Experience 
                     </h1>
                     <p className="mb-4" data-aos="fade-up" data-aos-delay="200">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maxime ipsa nulla sed quis rerum amet natus quas
-                      necessitatibus.
+                    Artificial Intelligence and robotic is the foundation of any Future business.
                     </p>
                     <p data-aos="fade-up" data-aos-delay="300">
-                      <a
+                      <Links
                         href="#"
-                        className="btn btn-primary py-3 px-5 btn-pill"
                       >
                         Admission Now
-                      </a>
+                      </Links>
                     </p>
                   </div>
 
@@ -37,31 +37,30 @@ class Intro extends Component {
                     <form action="" method="post" className="form-box">
                       <h3 className="h4 text-black mb-4">Sign Up</h3>
                       <div className="form-group">
-                        <input
+                        <AppInput
                           type="text"
-                          className="form-control"
+                          
                           placeholder="Email Addresss"
                         />
                       </div>
                       <div className="form-group">
-                        <input
+                        <AppInput
                           type="password"
-                          className="form-control"
+                          
                           placeholder="Password"
                         />
                       </div>
                       <div className="form-group mb-4">
-                        <input
+                        <AppInput
                           type="password"
-                          className="form-control"
+                          
                           placeholder="Re-type Password"
                         />
                       </div>
                       <div className="form-group">
-                        <input
-                          type="submit"
-                          className="btn btn-primary btn-pill"
-                          value="Sign up"
+                        
+                        <RoundedButton 
+                          name="sign up"
                         />
                       </div>
                     </form>

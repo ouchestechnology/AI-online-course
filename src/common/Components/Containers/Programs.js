@@ -37,10 +37,9 @@ class Programs extends Component {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h2 className="text-black mb-4">We Are Excellent In Education</h2>
+              <h2 className="text-black mb-4">The Future With AI</h2>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                maxime nam porro possimus fugiat quo molestiae illo.
+                We help you to become that dream you have always seen but in the future you see the foundation will be AI.
               </p>
 
               <div className="d-flex align-items-center custom-icon-wrap mb-3">
@@ -48,7 +47,7 @@ class Programs extends Component {
                   <span className="icon icon-graduation-cap"></span>
                 </span>
                 <div>
-                  <h3 className="m-0">22,931 Yearly Graduates</h3>
+                  <h3 className="m-0">Excellent Achievement</h3>
                 </div>
               </div>
 
@@ -57,7 +56,7 @@ class Programs extends Component {
                   <span className="icon icon-university"></span>
                 </span>
                 <div>
-                  <h3 className="m-0">150 Universities Worldwide</h3>
+                  <h3 className="m-0">Outstanding mentorship</h3>
                 </div>
               </div>
             </div>
@@ -82,8 +81,7 @@ class Programs extends Component {
             >
               <h2 className="text-black mb-4">Strive for Excellent</h2>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                maxime nam porro possimus fugiat quo molestiae illo.
+                Trying to get something is good but when you dont have the right tolls you get stranded.
               </p>
 
               <div className="d-flex align-items-center custom-icon-wrap mb-3">
@@ -91,7 +89,7 @@ class Programs extends Component {
                   <span className="icon icon-graduation-cap"></span>
                 </span>
                 <div>
-                  <h3 className="m-0">22,931 Yearly Graduates</h3>
+                  <h3 className="m-0">Performance</h3>
                 </div>
               </div>
 
@@ -100,13 +98,13 @@ class Programs extends Component {
                   <span className="icon icon-university"></span>
                 </span>
                 <div>
-                  <h3 className="m-0">150 Universities Worldwide</h3>
+                  <h3 className="m-0">Integrity</h3>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="row mb-5 align-items-center">
+          {/* <div className="row mb-5 align-items-center">
             <div
               className="col-lg-7 mb-5"
               data-aos="fade-up"
@@ -147,7 +145,7 @@ class Programs extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

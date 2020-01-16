@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import config from './../../../config';
 
 class Footer extends Component{
 
@@ -9,8 +10,8 @@ class Footer extends Component{
                 <div className="container">
                     <div className="row">
                     <div className="col-md-4">
-                        <h3>About OneSchool</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
+                        <h3>About {config.appName}</h3>
+                        <p>it is an online Academy That not only teach but give you an equal opportunity in the business world, We make fashion your goals desire using the best tools.</p>
                     </div>
 
                     <div className="col-md-3 ml-auto">
@@ -25,7 +26,7 @@ class Footer extends Component{
 
                     <div className="col-md-4">
                         <h3>Subscribe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus?</p>
+                        <p>Get awesome updates and information from our news letter</p>
                         <form action="#" className="footer-subscribe">
                         <div className="d-flex mb-5">
                             <input type="text" className="form-control rounded-0" placeholder="Email"/>
@@ -40,10 +41,10 @@ class Footer extends Component{
                     <div className="col-md-12">
                         <div className="border-top pt-5">
                         <p>
-                    
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                    
-                    </p>
+                            Copyright 
+                            &copy; <script>document.write(new Date().getFullYear());</script> 
+                            All rights reserved
+                        </p>
                         </div>
                     </div>
                     

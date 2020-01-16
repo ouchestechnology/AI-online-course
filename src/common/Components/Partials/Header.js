@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import config from './../../../config';
 
 class Header extends Component{
 
@@ -9,7 +10,7 @@ class Header extends Component{
       
                 <div className="container-fluid">
                 <div className="d-flex align-items-center">
-                    <div className="site-logo mr-auto w-25"><a href="index.html">OneSchool</a></div>
+                    <div className="site-logo mr-auto w-25"><a href="index.html">{config.appName}</a></div>
         
                     <div className="mx-auto text-center">
                     <nav className="site-navigation position-relative text-right" role="navigation">
@@ -25,7 +26,8 @@ class Header extends Component{
                     <div className="ml-auto w-25">
                     <nav className="site-navigation position-relative text-right" role="navigation">
                         <ul className="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                        <li className="cta"><a href="#contact-section" className="nav-link"><span>Contact Us</span></a></li>
+                        <li className="cta">
+                            <a href="#contact-section" className="nav-link"><span>Contact Us</span></a></li>
                         </ul>
                     </nav>
                     <a href="#" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span className="icon-menu h3"></span></a>
