@@ -8,12 +8,19 @@ import Teachers from "../Teachers";
 import Programs from "../Programs";
 import Courses from "../Courses";
 import Intro from "../Intro";
+import {Helmet} from "react-helmet";
+import config from './../../../../config';
 
 class Home extends Component {
   render() {
     return (
         <div>
             <MobileMenu/>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>{config.appName}</title>
+               
+            </Helmet>
             <Header/>     
             <Intro/> 
             <Courses/>  
