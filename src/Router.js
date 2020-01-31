@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Home from './common/Components/Containers/pages/Home';
 
 class Router extends Component{
 
@@ -12,8 +13,9 @@ class Router extends Component{
         return(
             
             <BrowserRouter>
+                
                 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-                    <p>hehere</p>
+                    <Home/>
                 </body>                                     
             </BrowserRouter>
             
