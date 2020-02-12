@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
 import Router from './Router';
+import CourseCard from './common/Components/Card/CourseCard.component';
 
 class App extends Component {
  
@@ -9,6 +10,9 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router/>
+        <CourseCard/>
+        <CourseCard/>
+        <CourseCard/>
       </Provider>
     );
   }
